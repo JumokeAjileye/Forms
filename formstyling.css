@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+
+header {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  margin: 10px auto;
+  width: 35%;
+  border-radius: 10px;
+}
+
+div.header {
+  background:  rgba(237, 210, 181, 255);
+  border-radius: 10px;
+  padding: 10px;
+  height: 240px;
+}
+div.header-title {
+  color: rgb(7, 2, 22);
+  background: none;
+  width: 80%;
+  margin: auto;
+}
+div.header-title > h3 {
+  padding: 10px 0;
+  font-size: 2.8em;
+  word-spacing: 10px;
+  background: none;
+}
+
+div.header-title > p {
+  padding: 10px 0;
+  background: none;
+  font-weight: 500;
+  font-size: 20px;
+  word-spacing: 10px;
+}
+div.header-image {
+  padding: 5px;
+  background: none;
+  width: 30%;
+  float: right;
+}
+.header-image img {
+  border-radius: 10px;
+  width: 100%;
+  outline: 0;
+  background: none;
+}
+
+/* body */
+section {
+  background: none;
+  padding: 4px;
+  margin: 10px auto;
+  width: 35%;
+  border-radius: 10px;
+}
+form {
+  background: none;
+  padding: 10px;
+}
+form > * {
+  padding: 10px;
+}
+label {
+  color: rgb(39, 146, 188);
+  font-weight: 550;
+}
+input {
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  border: none;
+  border-bottom: 2px solid rgb(6, 2, 33);
+}
+input:focus {
+  border: none;
+  border-bottom: 2px solid rgb(30, 0, 128);
+  outline: none;
+}
+div.submit {
+  background: none;
+  text-align: center;
+}
+.submit > button {
+  padding: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 2em;
+  width: 100%;
+  border-radius: 10px;
+  background: teal;
+  outline: 0;
+  border: 0;
+}
+div.extra {
+  background: none;
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 2em;
+}
+.extra > p {
+  color: rgb(29, 8, 82);
+  background: none;
+  font-size: 0.7em;
+}
+.extra > a {
+  text-decoration: none;
+  background: none;
+  font-size: 0.7em;
+  color: blue;
+}
